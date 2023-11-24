@@ -13,7 +13,7 @@ My Bot is a simple Discord bot designed for testing and experimenting with Disco
 ## Getting Started
 
 1. **Invite the Bot:**
-   - [Invite the bot](#) You can't invite the bot to your server but you can use it on this server https://discord.gg/HyQtuFuh.
+   - [use the bot](https://discord.gg/HyQtuFuh.) on my server.
 
 2. **Command Prefix:**
    - The bot uses slash commands, so there is no traditional command prefix.
