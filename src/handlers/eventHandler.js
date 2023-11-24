@@ -21,14 +21,15 @@ module.exports = (client) => {
     const eventName = eventFolder.replace(/\\/g, '/').split('/').pop();
 
     // Set up an event listener for the current event
-    client.on(eventName, async (arg) => {
+    client.on(eventName, async (arg, arg2) => {
       // Iterate through each event file in the current event folder
       for (const eventFile of eventFiles) {
         // Require the event function from the event file
         const eventFunction = require(eventFile);
 
         // Execute the event function with the Discord.js client and the event argument
-        await eventFunction(client, arg);
+
+        await eventFunction(client, arg, arg2);
       }
     });
   }
