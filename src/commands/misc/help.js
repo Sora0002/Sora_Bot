@@ -26,7 +26,7 @@ module.exports = {
 
 
 
-    interaction.reply({ embeds: [embed] })
+    interaction.reply({ embeds: [embed] , ephemeral: true })
         }
         else{
             interaction.reply({ content: 'You can only use this command in the support channel! <#1177683735991308370>', ephemeral: true })
